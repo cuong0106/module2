@@ -61,7 +61,7 @@ public class ArrayOop {
     }
 
     public static void main(String[] args) {
-        ArrayOop arrayOop = new ArrayOop("FuramaResort/src/Data/villa.csv",new Villa());
+        ArrayOop arrayOop = new ArrayOop("src/Data/villa.csv",new Villa());
         arrayOop.addInput();
         arrayOop.writeArray();
         arrayOop.show();

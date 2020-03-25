@@ -9,11 +9,11 @@ import java.util.Collections;
 public class MainController {
     private boolean whileDisplayMainMenu = true;
 
-    ArrayOop arrVilla = new ArrayOop("FuramaResort/src/Data/villa.csv",new Villa());
-    ArrayOop arrHouse = new ArrayOop("FuramaResort/src/Data/house.csv",new House());
-    ArrayOop arrRoom = new ArrayOop("FuramaResort/src/Data/room.csv",new Room());
-    ArrayOop arrCustomer =new ArrayOop("FuramaResort/src/Data/customer.csv",new Customer());
-    ArrayOop arrBooking = new ArrayOop("FuramaResort/src/Data/Booking.csv",new Customer());
+    ArrayOop arrVilla = new ArrayOop("src/Data/villa.csv",new Villa());
+    ArrayOop arrHouse = new ArrayOop("src/Data/house.csv",new House());
+    ArrayOop arrRoom = new ArrayOop("src/Data/room.csv",new Room());
+    ArrayOop arrCustomer =new ArrayOop("src/Data/customer.csv",new Customer());
+    ArrayOop arrBooking = new ArrayOop("src/Data/Booking.csv",new Customer());
 
     public MainController() {
     }
