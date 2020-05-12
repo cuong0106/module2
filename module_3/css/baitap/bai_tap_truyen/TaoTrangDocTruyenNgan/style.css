@@ -1,0 +1,180 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+/*.head {*/
+/*    background-color: darkgray;*/
+/*    width: 100%;*/
+/*    height: 110px;*/
+/*    top: 0;*/
+
+/*}*/
+
+.head{
+    position: relative;
+}
+#tp-search{
+    height: 43px;
+    width: 50%;
+    background-color: #ef7338;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    border-radius: 10px;
+
+
+}
+#tp-search input{
+    border-radius: 5px;
+    width: 600px;
+    height: 23px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.head a {
+    font-size: 30px;
+}
+
+.content {
+    width: 80%;
+    height: 500px;
+}
+
+.head1 img.icon1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -290px;
+    top: 10px;
+}
+
+.head1 input#search {
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 1000px;
+    top: 25px;
+}
+
+.head1 img.icon2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 596px;
+    top: -25px;
+
+}
+
+/*.head-link {*/
+/*    background-color: darkgray;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.head2 a {*/
+/*    padding: 20px;*/
+/*    margin: 45px;*/
+/*    color: black;*/
+/*    position: relative;*/
+/*    left: 10px;*/
+/*    top: 10px;*/
+/*}*/
+
+#head-link{
+    height: 51px;
+    width: 100%;
+    background: linear-gradient(grey, White);
+}
+#head-link a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 10px 52px;
+}
+#head-link a:hover{
+    background-color: #cfcfcf;
+}
+#head-link{
+    height: 38px;
+    width: 97%;
+    background-color: lawngreen;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.beetween {
+    margin: 10px;
+    width: 100%;
+}
+
+.left {
+    background-color: darkgray;
+    width: 15%;
+    height: 500px;
+    position: relative;
+    left: -11px;
+    float: left;
+}
+#hot {
+    margin: 0;
+    padding-top: 12px;
+    font-size: 30px;
+    color: red;
+    margin-left: 10px;
+}
+
+.left .menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.top-menu li a {
+    color: black;
+    font-size: 20px;
+}
+.row-row-custom{
+    position: relative;
+    left: 0px;
+    top: 0;
+}
+
+.img-book{
+    height: 250px;
+    width: 150px;
+}
+.content{
+    float: left;
+}
+.row-row-custom ul{
+    margin: 0;
+    padding : 0 0 0 46px;
+    outline: none;
+}
+.row-row-custom ul li{
+    float: left;
+    width: 183px;
+    margin: 0 0 15px 18px;
+    list-style: none;
+}
+.row-row-custom ul li.img-book{
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
